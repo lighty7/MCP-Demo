@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "universal-mcp": {
+      "command": "bash",
+      "args": ["-c", "cd /home/slave/Desktop/tuiTest/mcp-server-demo && /home/slave/Desktop/tuiTest/mcp-server-demo/venv/bin/python src/server.py"],
+      "env": {
+        "LOCAL_GIT_BASE_PATH": "/home/slave/Desktop/tuiTest"
+      }
+    }
+  }
+}
